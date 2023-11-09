@@ -18,7 +18,7 @@ let notInitialize: undefined = undefined;
 // let callback = (a) => {
 //   return 100 + a;
 // };
-let callback = (a: number) => {
+let callback = (a: number): number => {
   return 100 + a;
 };
 

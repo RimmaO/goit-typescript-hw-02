@@ -19,7 +19,7 @@ function calc(num1: number, num2: number) {
 // function customError() {
 //   throw new Error("Error");
 // }
-function customError() {
+function customError(): never {
   throw new Error("Error");
 }
 

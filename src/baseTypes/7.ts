@@ -8,8 +8,6 @@ enum DayType {
   SUNDAY,
 }
 
-function isWeekend(day: DayType) {
-  if (day === DayType.SATURDAY || DayType.SUNDAY) {
-    return true;
-  }
+function isWeekend(day: DayType): boolean {
+  return day === DayType.SATURDAY || day === DayType.SUNDAY;
 }
