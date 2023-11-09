@@ -5,14 +5,14 @@
 // function showMessage(message) {
 //   console.log(message);
 // }
-function showMessage(message: string) {
+function showMessage(message: void): void {
   console.log(message);
 }
 
 // function calc(num1, num2) {
 //   return num1 + num2;
 // }
-function calc(num1: number, num2: number) {
+function calc(num1: number, num2: number): number {
   return num1 + num2;
 }
 
